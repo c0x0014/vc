@@ -13,6 +13,16 @@ export default class App extends Component {
     playerVars: {
       autoplay: 1,
       playsinline: 1,
+      cc_load_policy: 0,
+      rel: 0, fs: 1,
+      controls: 0,
+      enablejsapi: 1,
+      modestbranding: 1,
+      disablekb: 1,
+      autohide: 1,
+      loop: 0,
+      volume: 0,
+      iv_load_policy: 3
     },
     ...this.style
   }
