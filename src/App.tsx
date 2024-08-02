@@ -39,8 +39,8 @@ export default class App extends Component {
   render() {
   return (
     <>
-      <h1>CUC Digital Open Campus</h1>
       <YouTube videoId='YEWEVXEt0ko'
+               style={this.style}
                opts={this.opts}
                onReady={this.onReady}
                onEnd={this.onEnd}
