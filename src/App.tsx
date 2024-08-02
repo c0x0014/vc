@@ -1,6 +1,7 @@
-import './App.css'
+import './App.css';
 import { Component } from 'react';
-import YouTube from 'react-youtube'
+import YouTube from 'react-youtube';
+import './YouTubePlayer.css';
 export default class App extends Component {
   style = {
     position: "absolute",
@@ -40,7 +41,6 @@ export default class App extends Component {
   return (
     <>
       <YouTube videoId='YEWEVXEt0ko'
-               style={this.style}
                opts={this.opts}
                onReady={this.onReady}
                onEnd={this.onEnd}
