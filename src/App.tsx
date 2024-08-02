@@ -30,7 +30,7 @@ export default class App extends Component {
   return (
     <>
       <h1>CUC Digital Open Campus</h1>
-      <YouTube videoId='R24FWaSw4GU'
+      <YouTube videoId='YEWEVXEt0ko'
                opts={this.opts}
                onReady={this.onReady}
                onEnd={this.onEnd}
