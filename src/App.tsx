@@ -3,13 +3,6 @@ import { Component } from 'react';
 import YouTube from 'react-youtube';
 import './YouTubePlayer.css';
 export default class App extends Component {
-  style = {
-    position: "absolute",
-    left: 0,
-    top: 0,
-    width: "100%",
-    height: "100%",
-  }
   opts = {
     playerVars: {
       autoplay: 1,
@@ -24,8 +17,7 @@ export default class App extends Component {
       loop: 0,
       volume: 0,
       iv_load_policy: 3
-    },
-    ...this.style
+    }
   }
 
   onReady(event : any) {
@@ -39,8 +31,9 @@ export default class App extends Component {
 
   render() {
   return (
-    <>
-      <YouTube videoId='YEWEVXEt0ko'
+    <div className='youtube-container'>
+      <YouTube className='youtube-video'
+               videoId='YEWEVXEt0ko'
                opts={this.opts}
                onReady={this.onReady}
                onEnd={this.onEnd}
