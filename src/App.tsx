@@ -38,7 +38,7 @@ export default class App extends Component {
                onReady={this.onReady}
                onEnd={this.onEnd}
       />
-    </>
+    </div>
   )
   }
 }
