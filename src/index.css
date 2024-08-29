@@ -69,3 +69,15 @@ button:focus-visible {
   }
 }
 */
+
+/*body{
+  border: solid 1px red;
+}
+*/
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+ 
+}
+
