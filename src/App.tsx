@@ -31,6 +31,7 @@ export default class App extends Component {
 
   render() {
   return (
+    <div>
     <div className='youtube-container'>
       <YouTube className='youtube-video'
                videoId='-o92gCY58pk'
@@ -39,6 +40,13 @@ export default class App extends Component {
                onEnd={this.onEnd}
       />
     </div>
+
+    <div id="navi">
+    <a href="https://my.matterport.com/show/?m=GnraFBAGbgW">
+      動画をスキップする
+    </a>
+  </div>
+  </div>
   )
   }
 }

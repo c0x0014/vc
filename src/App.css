@@ -43,3 +43,13 @@
 .read-the-docs {
   color: #888;
 }
+
+#navi{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #8c8c8c;
+  z-index: 1000;
+}
+
+
