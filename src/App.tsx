@@ -43,7 +43,8 @@ export default class App extends Component {
 
     <div id="navi">
     <a href="https://my.matterport.com/show/?m=GnraFBAGbgW">
-      動画をスキップする
+    <img src="button.png" alt="動画をスキップ"/>
+
     </a>
   </div>
   </div>

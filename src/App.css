@@ -45,11 +45,14 @@
 }
 
 #navi{
-  position: absolute;
-  bottom: 5%;
-  right: 3%;
-  background: #8c8c8c;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
   z-index: 1000;
+}
+#navi img{
+  width: 20vw;
+  height: auto;
 }
 
 
