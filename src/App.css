@@ -46,8 +46,8 @@
 
 #navi{
   position: absolute;
-  top: 0px;
-  right: 0px;
+  bottom: 5%;
+  right: 3%;
   background: #8c8c8c;
   z-index: 1000;
 }
