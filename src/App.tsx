@@ -2,6 +2,7 @@ import './App.css';
 import { Component } from 'react';
 import YouTube from 'react-youtube';
 import './YouTubePlayer.css';
+import button from "./assets/button.png";
 export default class App extends Component {
   opts = {
     playerVars: {
@@ -43,7 +44,7 @@ export default class App extends Component {
 
     <div id="navi">
     <a href="https://my.matterport.com/show/?m=GnraFBAGbgW">
-    <img src="button.png" alt="動画をスキップ"/>
+    <img src={button} alt="動画をスキップ"/>
 
     </a>
   </div>
