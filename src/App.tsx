@@ -27,7 +27,7 @@ export default class App extends Component {
   }
   onEnd(event : any) {
     event.target.stopVideo();
-    window.location.href = 'https://my.matterport.com/show/?m=GnraFBAGbgW';
+    window.location.href = 'https://my.matterport.com/show/?m=fn8iQ4CHHqh';
   }
 
   render() {
